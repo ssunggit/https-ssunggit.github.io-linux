@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+# LINUX
 
-You can use the [editor on GitHub](https://github.com/ssunggit/https-ssunggit.github.io-linux/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## 총 동영상 3개 제작(각 동영상에서 필요한 개념 설명 할것, 필요한 항목들 설명할것, 설치하는 과정 등은 짧아도 됨. 편집 가능. 완성된 것 보여주기
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Apache와 Tomcat 연동, webserver활용 및 app에 따른 요청 분배
+ - apache에 tomcat1 (app1), tomcat2 (app2) 연동. tomcat에는 각기 다른 app이 deploy되어 있다.
+ - apache DocumentRoot에 index.html을 위치 시키고, 이것을 첫 화면으로 활용. 
+ - 해당 index.html page에서 app1과 app2를 실행할수 있도록 링크로 연결한다.
+ - apache가 tomcat에게 url을 기반으로 요청을 분배하는것에 대한 개념 설명
+ - app1과 app2는 자유 선택
+ 
+<iframe width="853" height="480" src="https://www.youtube.com/embed/6hvQismTJGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Markdown
+## Oracle Weblogic 설치 및 app deploy
+ - Domain, DAS, MS, Cluster 개념 설명
+ - DAS, MS 설치 및 기동 방법 설명
+ - MS에 app deploy
+ 
+<iframe width="853" height="480" src="https://www.youtube.com/embed/FXCnM9Sh-VA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Google Cloud Platform Compute engine 위에서 Apache-Tomcat  설치, 연동, App deploy
+ - 방화벽 해제 방법 소개
+ - app은 자유 선택
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ssunggit/https-ssunggit.github.io-linux/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<iframe width="951" height="480" src="https://www.youtube.com/embed/62MrIihI-Qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
